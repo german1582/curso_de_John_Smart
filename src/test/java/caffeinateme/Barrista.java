@@ -6,13 +6,13 @@ import java.util.List;
 public class Barrista {
     public List<String> getPendingOrders() {
         List<String> results = new ArrayList<>();
-        results.add("large cappuccino");
+        results.add("cappuccino");
         return results;
     }
 
     public List<String> getUrgentOrders() {
         List<String> results = new ArrayList<>();
-        results.add("large cappuccino");
+        results.add("cappuccino");
         return results;
     }
 }
